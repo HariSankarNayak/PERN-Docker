@@ -26,7 +26,7 @@ psql postgres://azularc:azularc@localhost:35432/db
 
 `npm run migrate down` will roll back the migrations.
 
-`npm run migrate:create <migration-name>`  will create a new migration file in [./src/migrations](./src/migrations).
+`npm run migrate:create <migration-name>`  will create a new migration file in [./api/src/migrations](./api/src/migrations).
 
 To run the migrations inside of docker-compose. Which will run a bash instance inside the `app` container.
 ```sh
